@@ -1,0 +1,57 @@
+----------------------------------------------------------------------
+-- localhost Environment debug created 2015-01-07 14:41:55
+----------------------------------------------------------------------
+{
+    "all": [
+        "green.example.com", 
+        "blue.example.com", 
+        "192.168.100.1", 
+        "192.168.100.10", 
+        "localhost", 
+        "alpha.example.org", 
+        "beta.example.org", 
+        "192.168.1.100", 
+        "192.168.1.110", 
+        "www001.example.com", 
+        "www002.example.com", 
+        "www003.example.com", 
+        "www004.example.com", 
+        "www005.example.com", 
+        "www006.example.com", 
+        "db01.intranet.mydomain.net", 
+        "db02.intranet.mydomain.net", 
+        "10.25.1.56", 
+        "10.25.1.57", 
+        "db-99-node.example.com", 
+        "db-100-node.example.com", 
+        "db-101-node.example.com"
+    ], 
+    "dbservers": [
+        "db01.intranet.mydomain.net", 
+        "db02.intranet.mydomain.net", 
+        "10.25.1.56", 
+        "10.25.1.57", 
+        "db-99-node.example.com", 
+        "db-100-node.example.com", 
+        "db-101-node.example.com"
+    ], 
+    "ungrouped": [
+        "green.example.com", 
+        "blue.example.com", 
+        "192.168.100.1", 
+        "192.168.100.10", 
+        "localhost"
+    ], 
+    "webservers": [
+        "alpha.example.org", 
+        "beta.example.org", 
+        "192.168.1.100", 
+        "192.168.1.110", 
+        "www001.example.com", 
+        "www002.example.com", 
+        "www003.example.com", 
+        "www004.example.com", 
+        "www005.example.com", 
+        "www006.example.com"
+    ]
+}

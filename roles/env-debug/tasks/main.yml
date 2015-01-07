@@ -1,0 +1,10 @@
+---
+- name: Create debug directory
+  file: path={{ item }} state=directory mode=0755
+  with_items:
+    - "{{ debug_dir }}"
+
+- name: Create ansible environmental debug
+  action: template src=dumpall.j2 dest={{ debug_dir }}/ansible.{{ ansible_date_time.date}}.txt
+  tags:
+    - debug
